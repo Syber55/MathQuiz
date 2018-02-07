@@ -39,6 +39,15 @@ public class Quiz {
 	}
 
 	public static void Korjenovanje() {
-
+		int rješenje = Random();
+		int broj = (int) (Math.pow(rješenje, 2));
+		System.out.println("Koliki je korijen broja " + broj);
+		int odgovor = input.nextInt();
+		if (odgovor == rješenje) {
+			System.out.println("Tacan odgovor!");
+		}
+		else {
+			System.out.println("Pogresan odgovor.");
+		}
 	}
 }
