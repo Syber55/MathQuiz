@@ -5,23 +5,23 @@ public class Quiz {
 		return 0;
 	}
 
-	public static void Sabiranje(int a) {
+	public static void Sabiranje() {
 
 	}
 
-	public static void Oduzimanje(int a) {
+	public static void Oduzimanje() {
 
 	}
-	public static void Množenje (int a) {
+	public static void Množenje () {
 		
 	}
-	public static void Djeljenje (int a) {
+	public static void Djeljenje () {
 		
 	}
-	public static void Kvadriranje (int a) {
+	public static void Kvadriranje () {
 		
 	}
-	public static void Korjenovanje (int a) {
+	public static void Korjenovanje () {
 		
 	}
 }
