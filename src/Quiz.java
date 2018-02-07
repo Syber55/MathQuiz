@@ -1,7 +1,8 @@
 import java.lang.Math;
+/*Napiši komentar *OVDJE**/
 public class Quiz {
-	public static int Random () {
-		int broj = (int)(Math.random()*10);
+	public static int Random() {
+		int broj = (int) (Math.random() * 10);
 		return 0;
 	}
 
@@ -12,16 +13,20 @@ public class Quiz {
 	public static void Oduzimanje() {
 
 	}
-	public static void Množenje () {
-		
+
+	public static void Množenje() {
+
 	}
-	public static void Djeljenje () {
-		
+
+	public static void Djeljenje() {
+
 	}
-	public static void Kvadriranje () {
-		
+
+	public static void Kvadriranje() {
+
 	}
-	public static void Korjenovanje () {
-		
+
+	public static void Korjenovanje() {
+
 	}
 }
