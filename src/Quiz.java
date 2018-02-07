@@ -5,17 +5,17 @@ public class Quiz {
 		return 0;
 	}
 
-	public static void Sabiranje(int a, int b) {
+	public static void Sabiranje(int a) {
 
 	}
 
-	public static void Oduzimanje(int a, int b) {
+	public static void Oduzimanje(int a) {
 
 	}
-	public static void Množenje (int a, int b) {
+	public static void Množenje (int a) {
 		
 	}
-	public static void Djeljenje (int a, int b) {
+	public static void Djeljenje (int a) {
 		
 	}
 	public static void Kvadriranje (int a) {
