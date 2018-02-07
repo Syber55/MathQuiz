@@ -1,6 +1,7 @@
 import java.lang.Math;
 import java.util.Scanner;
 /*Napiši komentar */
+/*Preporuèujem korištenje Scannera input */
 public class Quiz {
 	public static final Scanner input = new Scanner (System.in);
 	public static int Random() {
@@ -30,10 +31,10 @@ public class Quiz {
 		int odgovor = input.nextInt();
 		int rješenje = (int)Math.pow(broj, 2);
 		if (odgovor == rješenje) {
-			System.out.println("Taèan odgovor!");
+			System.out.println("Tacan odgovor!");
 		}
 		else {
-			System.out.println("Pogrešan odgovor.");
+			System.out.println("Pogresan odgovor.");
 		}
 	}
 
