@@ -9,11 +9,21 @@ public class Quiz {
 		return broj;
 	}
 
-	public static void Sabiranje() {
+	public static void sabiranje() {
+		int n1 = Random();
+		int n2 = Random();
+		System.out.println("Koliko je " + n1 + " + " + n2 + " ?");
+		int odgovor = input.nextInt();
+		System.out.println("Vas odgovor je " + ((odgovor == n1 + n2) ? "tacan" : "netacan"));
 
 	}
-
-	public static void Oduzimanje() {
+	
+	public static void oduzimanje() {
+		int n1 = Random();
+		int n2 = Random();
+		System.out.println("Koliko je " + n1 + " - " + n2 + " ?");
+		int odgovor = input.nextInt();
+		System.out.println("Vas odgovor je " + ((odgovor == n1 - n2) ? "tacan" : "netacan"));
 
 	}
 
