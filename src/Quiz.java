@@ -18,11 +18,43 @@ public class Quiz {
 	}
 
 	public static void Množenje() {
+		// generisati dva nasumicna, jednocifrena, cijela broja
+		int broj1 = Random();
+		int broj2 = Random();
+
+		// pitati korisnika da unese rezultat mnozenja
+		System.out.println("Koliko je " + broj1 + " * " + broj2 + "?: ");
+		
+		// dodijeliti korisnikov unos varijabli
+		int odgovor = unos.nextInt();
+
+		// provjeriti da li je odgovor tacan, ispisati rezultate korisniku
+		if (odgovor == broj1 * broj2) {
+			System.out.println("Cestitamo, odgovoro je tacan.");
+		} else {
+			System.out.println("Odgovor koji ste unijeli nije tacan. " + "Tacan odgovor je " + (broj1 * broj2));
+		}
 
 	}
 
 	public static void Djeljenje() {
+		// generisati dva nasumicna, jednocifrena, cijela broja
+		int kolicnik = Random();
+		int djelilac = Random();
+		int djeljenik = kolicnik * djelilac;
 
+		// pitati korisnika da unese rezultat mnozenja
+		System.out.println("Koliko je " + djeljenik  + " : " + djelilac + "?: ");
+
+		// dodijeliti korisnikov unos varijabli
+		int odgovor = unos.nextInt();
+
+		// provjeriti da li je odgovor tacan, ispisati rezultate korisniku
+		if (odgovor == kolicnik) {
+			System.out.println("Cestitamo, odgovoro je tacan.");
+		} else {
+			System.out.println("Odgovor koji ste unijeli nije tacan. " + "Tacan odgovor je " + kolicnik);
+		}
 	}
 
 	public static void Kvadriranje() {
@@ -43,7 +75,7 @@ public class Quiz {
 		int broj = (int) (Math.pow(rješenje, 2));
 		System.out.println("Koliki je korijen broja " + broj);
 		int odgovor = input.nextInt();
-		if (odgovor == rješenje) {
+		if (odgovor == rješenje) {  
 			System.out.println("Tacan odgovor!");
 		}
 		else {
