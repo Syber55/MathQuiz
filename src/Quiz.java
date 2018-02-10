@@ -36,7 +36,7 @@ public class Quiz {
 		System.out.println("Koliko je " + broj1 + " * " + broj2 + "?: ");
 		
 		// dodijeliti korisnikov unos varijabli
-		int odgovor = unos.nextInt();
+		int odgovor = input.nextInt();
 
 		// provjeriti da li je odgovor tacan, ispisati rezultate korisniku
 		if (odgovor == broj1 * broj2) {
@@ -57,7 +57,7 @@ public class Quiz {
 		System.out.println("Koliko je " + djeljenik  + " : " + djelilac + "?: ");
 
 		// dodijeliti korisnikov unos varijabli
-		int odgovor = unos.nextInt();
+		int odgovor = input.nextInt();
 
 		// provjeriti da li je odgovor tacan, ispisati rezultate korisniku
 		if (odgovor == kolicnik) {
